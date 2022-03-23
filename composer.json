@@ -1,0 +1,20 @@
+{
+    "name": "silviavaca22/sistema_criaganado",
+    "description": "sistema para ganaderia",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+    
+    "files":[
+        "app/helpers.php"
+    ]
+},
+    "authors": [
+        {
+            "name": "silvia vaca s",
+            "email": "silviavacas@gmail.com"
+        }
+    ],
+    "require": {}
+}
