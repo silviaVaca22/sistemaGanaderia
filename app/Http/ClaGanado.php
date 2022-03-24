@@ -101,9 +101,10 @@ class ClaGanado
         echo '<p>La fecha de registro: ' . $this->getFechaReg . '</p>';
         echo '<p>La fecha de nacimiento: ' . $this->getFechaNac . '</p>';
         echo '<p>la raza es: ' . $this->getRaza . '</p>';
+        echo '<p>la raza es: ' . $this->getRaza . '</p>';
         echo '<p>el color es: ' . $this->getColor. '</p>';
         echo '<p>ubicado en el puesto: ' . $this->getubica. '</p>';
-        echo '<p>el estado es: ' . $this->getEstado . '</p>';
+        echo '<p>el estado es : ' . $this->getEstado . '</p>';
         echo '<p>La obs es: ' . $this->getObs . '</p>';
         
 
