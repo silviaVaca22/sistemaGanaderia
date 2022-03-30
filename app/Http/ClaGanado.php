@@ -8,6 +8,7 @@ class ClaGanado
     private $fechaReg;
     private $fechaNac;
     private $raza;
+    private $sexo;
     private $color;
     private $ubica;
     private $estado;
@@ -44,7 +45,7 @@ class ClaGanado
        return ($this->fechaNac);
 
     }
-    public function setrRaza($value)
+    public function setRaza($value)
     {
         $this->raza=$value;
 
@@ -54,7 +55,17 @@ class ClaGanado
        return ($this->raza);
 
     }
-    public function setrColor($value)
+    public function setSexo($value)
+    {
+        $this->sexo=$value;
+
+    }
+    public function getSexo()
+    {
+       return ($this->sexo);
+
+    }
+    public function setColor($value)
     {
         $this->color=$value;
 
@@ -102,6 +113,7 @@ class ClaGanado
         echo '<p>La fecha de nacimiento: ' . $this->getFechaNac . '</p>';
         echo '<p>la raza es: ' . $this->getRaza . '</p>';
         echo '<p>la raza es: ' . $this->getRaza . '</p>';
+        echo '<p>la sexo es: ' . $this->getSexo . '</p>';
         echo '<p>el color es: ' . $this->getColor. '</p>';
         echo '<p>ubicado en el puesto: ' . $this->getubica. '</p>';
         echo '<p>el estado es : ' . $this->getEstado . '</p>';
